@@ -1,17 +1,35 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
+  <title>COVID-19</title>
   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
-<title>COVID19</title> 
-</head> 
-<body> 
-<!-- Begin Click2Map Widget -->
-<iframe id="c2m_map_widget" src="https://www.click2map.com/v2/yuniaswandewi/Penyebaran_COVID19_di_Denpasar_Selatan/widget" width="800" height="800" frameborder="0" sytle="display:block;"></iframe>
-<!-- End Click2Map Widget -->
-</body> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h3>Covid-19</h3>
+      <!-- Begin Click2Map Widget -->
+      <iframe id="c2m_map_widget" src="https://www.click2map.com/v2/yuniaswandewi/Penyebaran_COVID19_di_Denpasar_Selatan/widget" width="800" height="500" frameborder="0" sytle="display:block;"></iframe>
+      <!-- End Click2Map Widget -->
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
+
 
 
 
